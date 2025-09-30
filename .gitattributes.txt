@@ -1,0 +1,16 @@
+# Установить LF для всех текстовых файлов
+* text=auto
+
+# Явно указать LF для SQL файлов  
+*.sql text eol=lf
+
+# Явно указать LF для других текстовых файлов
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.xml text eol=lf
+
+# Бинарные файлы
+*.png binary
+*.jpg binary
+*.zip binary
